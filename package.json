@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">=4.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start_server": "node server.js",
+    "start_client": "node client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "uws": "^0.4.1",
+    "util": "^0.10.3",
+    "websocket": "^1.0.23"
+  }
+}
